@@ -12,6 +12,7 @@ package student;
 public class Student {
 
     private String name;
+    private String address;
 
     public String getName() {
         return name;
@@ -20,13 +21,21 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
-    
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
     
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        
         /*
         int [] studentMarks = new int[5];
         char [] sName = new char[5];
